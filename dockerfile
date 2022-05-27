@@ -24,3 +24,5 @@ EXPOSE 8080
 
 # Set the name of the application.
 ENV APP_NAME="Azure Data Studio"
+
+VOLUME ['/config']
